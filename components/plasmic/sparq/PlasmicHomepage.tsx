@@ -144,6 +144,7 @@ function PlasmicHomepage__RenderFunc(props: {
           name="twitter:image"
           content={PlasmicHomepage.pageMetadata.ogImageSrc}
         />
+        <link ref="canonical" href={PlasmicHomepage.pageMetadata.canonical} />
       </Head>
 
       <style>{`
@@ -322,7 +323,7 @@ export const PlasmicHomepage = Object.assign(
       description: "Here's how to claim a free device!",
       ogImageSrc:
         "https://site-assets.plasmic.app/a6f2cab224eeb7b022dfd5ca826b33f4.jpg",
-      canonical: ""
+      canonical: "https://blog.lifehacksplus.com/home"
     }
   }
 );
