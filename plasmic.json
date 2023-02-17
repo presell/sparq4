@@ -1,0 +1,162 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "gzk14oXgaAXzvGY4rg9Zpf",
+      "projectApiToken": "ui3mrJe2o1Btt3wXMUSJUoPVp8Zd9LykwOul5B34KGZfMYvazZ8UIIo0dwymr8OpnZVmVKNA3qnT4MmA4NiXQ",
+      "projectName": "Sparq",
+      "version": "latest",
+      "cssFilePath": "plasmic/sparq/plasmic_sparq.module.css",
+      "components": [
+        {
+          "id": "9gdORR-4bswP",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "gzk14oXgaAXzvGY4rg9Zpf",
+          "renderModuleFilePath": "plasmic/sparq/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/home.tsx"
+          },
+          "cssFilePath": "plasmic/sparq/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "cvcnfaaG2op",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "gzk14oXgaAXzvGY4rg9Zpf",
+          "renderModuleFilePath": "plasmic/sparq/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/sparq/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "ozeV0SDc71z",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "gzk14oXgaAXzvGY4rg9Zpf",
+          "renderModuleFilePath": "plasmic/sparq/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/sparq/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "jwdOlP8e8I",
+          "name": "ThankYou",
+          "type": "managed",
+          "projectId": "gzk14oXgaAXzvGY4rg9Zpf",
+          "renderModuleFilePath": "plasmic/sparq/PlasmicThankYou.tsx",
+          "importSpec": {
+            "modulePath": "../pages/thank-you.tsx"
+          },
+          "cssFilePath": "plasmic/sparq/PlasmicThankYou.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "aosSKnRcbUV",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/sparq/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "5pvQ6e0EVXa",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/sparq/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "AYUAb-vAHEB",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/sparq/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "a82kRf_hR",
+          "name": "Sparq_Logo_White.png",
+          "filePath": "../public/plasmic/sparq/images/sparqLogoWhitepng.png"
+        },
+        {
+          "id": "49gKu5nFR",
+          "name": "https___app.unbounce.com_publish_assets_4e7205ac-8938-11ed-b5b0-0242a3c829a5_3u3deu-sparq-black-logo_108c08c000000000000028.png",
+          "filePath": "../public/plasmic/sparq/images/httpsAppunbouncecomPublishAssets4E7205Ac893811EdB5B00242A3C829A53U3DeuSparqBlackLogo108C08C000000000000028Png.png"
+        },
+        {
+          "id": "xgR8J7tPp",
+          "name": "LADYBAGUETTE2020IMG_3156-Edit 1.svg",
+          "filePath": "../public/plasmic/sparq/images/ladybaguette2020Img3156Edit1Svg.bin"
+        },
+        {
+          "id": "dJoSYNukj",
+          "name": "LADYBAGUETTE2020IMG_3156-Edit.jpg",
+          "filePath": "../public/plasmic/sparq/images/ladybaguette2020Img3156Editjpg.jpeg"
+        },
+        {
+          "id": "TSZ2AN1oU",
+          "name": "e-mail_1f4e7.png",
+          "filePath": "../public/plasmic/sparq/images/eMail1F4E7Png.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "JUIMh0QgjN",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "C1rkBgU4jx",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "BAI21pvFA_wEr",
+        "name": "Screen",
+        "projectId": "gzk14oXgaAXzvGY4rg9Zpf",
+        "contextFilePath": "plasmic/sparq/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.212",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.212/dist/plasmic.schema.json"
+}
