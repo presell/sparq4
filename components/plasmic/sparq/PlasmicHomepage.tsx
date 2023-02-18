@@ -201,9 +201,9 @@ function PlasmicHomepage__RenderFunc(props: {
             <form
               data-plasmic-name={"form"}
               data-plasmic-override={overrides.form}
-              action={"https://blog.lifehacksplus.com/thank-you" as const}
+              action={"" as const}
               className={classNames(projectcss.all, sty.form)}
-              method={"post" as const}
+              method={"" as const}
             >
               <TextInput
                 data-plasmic-name={"textInput"}
@@ -217,7 +217,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 data-plasmic-name={"button"}
                 data-plasmic-override={overrides.button}
                 className={classNames("__wab_instance", sty.button)}
-                link={"https://blog.lifehacksplus.com/thank-you" as const}
+                link={`/thank-you`}
               >
                 {"Claim Free Device"}
               </Button>
