@@ -35,7 +35,7 @@
           "projectId": "gzk14oXgaAXzvGY4rg9Zpf",
           "renderModuleFilePath": "plasmic/sparq/PlasmicHomepage.tsx",
           "importSpec": {
-            "modulePath": "../pages/home.tsx"
+            "modulePath": "../pages/index.tsx"
           },
           "cssFilePath": "plasmic/sparq/PlasmicHomepage.module.css",
           "scheme": "blackbox",
