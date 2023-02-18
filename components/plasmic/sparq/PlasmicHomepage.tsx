@@ -201,7 +201,9 @@ function PlasmicHomepage__RenderFunc(props: {
             <form
               data-plasmic-name={"form"}
               data-plasmic-override={overrides.form}
+              action={"https://blog.lifehacksplus.com/thank-you" as const}
               className={classNames(projectcss.all, sty.form)}
+              method={"post" as const}
             >
               <TextInput
                 data-plasmic-name={"textInput"}
